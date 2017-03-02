@@ -85,7 +85,7 @@ class X8664W64Mingw32Gcc < Formula
         --with-gmp=#{Formula["gmp"].opt_prefix}
         --with-mpfr=#{Formula["mpfr"].opt_prefix}
         --with-mpc=#{Formula["libmpc"].opt_prefix}
-        --with-isl=#{Formula["isl@0.14"].opt_prefix}
+        --with-isl=#{Formula["isl"].opt_prefix}
         MAKEINFO=#{Formula["texinfo"].opt_bin}/makeinfo
       ]
 
@@ -141,7 +141,7 @@ class X8664W64Mingw32Gcc < Formula
       --with-gmp=#{Formula["gmp"].opt_prefix}
       --with-mpfr=#{Formula["mpfr"].opt_prefix}
       --with-mpc=#{Formula["libmpc"].opt_prefix}
-      --with-isl=#{Formula["isl@0.14"].opt_prefix}
+      --with-isl=#{Formula["isl"].opt_prefix}
       MAKEINFO=#{Formula["texinfo"].opt_bin}/makeinfo
     ]
 
