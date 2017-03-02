@@ -10,8 +10,8 @@ class X8664W64Mingw32Gcc < Formula
   depends_on "gmp"
   depends_on "mpfr"
   depends_on "libmpc"
-  depends_on "isl@0.14"
-  depends_on "cosmo0920/mingw_w64/x86-64-w64-mingw32-binutils" => :build
+  depends_on "isl"
+  depends_on "giter/mingw_w64/x86-64-w64-mingw32-binutils" => :build
 
   conflicts_with "mingw-w64", :because => "homebrew-core has mingw-w64 formula"
 
